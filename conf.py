@@ -21,7 +21,7 @@ BLOG_AUTHOR = "vanangamudi"  # (translatable)
 BLOG_TITLE = "vanangamudi"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://vanangamudi.github.io/python-tamil"
+SITE_URL = "https://vanangamudi.github.io/python-tamil/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://pages.gitlab.io/nikola/"
@@ -390,7 +390,7 @@ HIDDEN_TAGS = ['mathjax']
 # TAGLIST_MINIMUM_POSTS = 1
 
 # Final locations are:
-# output / TRANSLATION[lang] / CATEGORY_PATH / index.html (list of categories)
+# output / TRANSLATION[lang] / CATEGORY_PATH / index.html(list of categories)
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.html (list of posts for a category)
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.xml (RSS feed for a category)
 # (translatable)
@@ -480,7 +480,7 @@ FRONT_INDEX_HEADER = {
 # CREATE_SINGLE_ARCHIVE = False
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
-# CREATE_FULL_ARCHIVES = False
+CREATE_FULL_ARCHIVES = True
 # If monthly archives or full archives are created, adds also one archive per day
 # CREATE_DAILY_ARCHIVE = False
 # Final locations for the archives are:
@@ -489,7 +489,7 @@ FRONT_INDEX_HEADER = {
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / DAY / index.html
 # ARCHIVE_PATH = ""
-# ARCHIVE_FILENAME = "archive.html"
+ARCHIVE_FILENAME = "archive.html"
 
 # If ARCHIVES_ARE_INDEXES is set to True, each archive page which contains a list
 # of posts will contain the posts themselves. If set to False, it will be just a
